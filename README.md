@@ -9,9 +9,13 @@ Nmap uses raw IP packets in novel ways to determine what hosts are available on 
 In addition to the classic command-line Nmap executable, the Nmap suite includes an advanced GUI and results viewer (Zenmap), a flexible data transfer, redirection, and debugging tool (Ncat), a utility for comparing scan results (Ndiff), and a packet generation and response analysis tool (Nping).
 
 ## Downloading and Installing
+
 RPM-based Distributions and Debian Linux and Derivatives have different ways to install.
+
 Environment: Ubuntu 20.04.3 LTS system
+
 Downloading, converting, and installing the `nmap` RPM package on Ubuntu are as follows:
+
 ### Download and Convert RPM Package to DEB
 1. **Download the RPM Package**: The user successfully downloads the RPM package using `wget` with sudo permissions to overcome the permission denied issue.
    ```sh
